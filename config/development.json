@@ -1,0 +1,16 @@
+{
+    "sequelize": {
+        "database": "okazu",
+        "username": "okazu",
+        "password": "okazu",
+        "options": {
+            "host": "54.248.225.164",
+            // "host": "localhost",
+            "dialect": "mysql",
+            "pool": {
+                "maxConnections": 5,
+                "maxIdleTime": 30
+            }
+        }
+    }
+}
